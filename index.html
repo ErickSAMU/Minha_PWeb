@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"class="navbar bg-primary" data-bs-theme="dark">
+        
+     
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Minha Página Web</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="#">Página Principal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ajuda</a>
+               </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>A Criação do Mundo</h2>
+                <p>“No princípio Deus Criou o céu e a terra. ” (Gênesis 1:1)
+                    Sabe por que o livro de Gênesis começa assim? Porque Gênesis fala dos dias da criação do mundo.
+                     Em Gênesis aprendemos que Deus criou tudo que existe no universo em apenas 6 dias.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>A Salvação</h2>
+                    <p>A Bíblia diz: “Pois todo aquele que invocar o nome do Senhor será salvo. Como, então, invocarão Aquele em quem não creram? Como poderão crer naquele de quem nunca ouviram falar? E como eles vão ouvir sem alguém pregar? E como eles devem pregar a menos que sejam enviados? ” (Romanos 10: 13-15).
+                      Essa passagem nos mostra claramente os passos no processo de salvação. Primeiro, alguém é enviado com o evangelho. Segundo, o evangelho é pregado. Terceiro, o evangelho é ouvido. Quarto, as pessoas acreditam no evangelho. Quinto, as pessoas clamam a Cristo pela salvação</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>O fim</h2>
+                <p>Irmãos, quanto aos tempos e épocas, não precisamos escrever pois vocês mesmos sabem perfeitamente que o dia do Senhor virá como ladrão à noite. Quando disserem: "Paz e segurança", a destruição virá sobre eles de repente, como as dores de parto à mulher grávida; e de modo nenhum escaparão. Mas vocês, irmãos, não estão nas trevas, para que esse dia os surpreenda como ladrão. Vocês todos são filhos da luz, filhos do dia. Não somos da noite nem das trevas.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<footer class="bg-dark text-white text-center py-2">
+    &copy; <span id="anoAtual"></span> Minha Página Web
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+<script>
+    
+    document.getElementById('anoAtual').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
